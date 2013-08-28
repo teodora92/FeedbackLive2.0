@@ -1,0 +1,350 @@
+#btnAdd {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	
+}
+
+#appIcon {
+	position: absolute;
+	height: 45px;
+	top: 0;
+	left: 10px;
+}
+
+*	 {
+	-webkit-tap-highlight-color: rgba(255,255,255,0);
+	-moz-tap-highlight-color: rgba(255,255,255,0);
+	tap-highlight-color: rgba(255,255,255,0);
+}
+
+#btnBack {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 8px;
+	left: 10px;
+
+}
+
+.homePage {
+	position: fixed;
+	top:45px; bottom:0;
+	width: 100%;
+	left: 0;
+	/*-webkit-transition-duration: 3s;
+	-moz-transition-duration: 3s;
+	-o-transition-duration: 3s;
+	transition-duration: 3s;
+*/
+	background-color: #aaa;
+}
+
+.detailPage {
+	position: fixed;
+	z-index: 3;
+	top:45px; 
+	font-size: 14px;
+	background: white;
+	width: 100%;
+	height: 100%;
+	left: 100%;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.detailPageVis{
+	position: fixed;
+	z-index: 3;
+	background: white;
+	width: 100%;
+	height: 100%;
+	top:45px;
+	left: 0px;
+	font-size: 14px;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.formPage {
+	position: fixed;
+	z-index: 4;
+	background: white;
+	width: 100%;
+	height: 100%;
+	bottom: 100%;
+	font-size: 14px;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	
+}
+
+.formPageVis {
+	position: fixed;
+	z-index: 4;
+	background: white;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+	font-size: 14px;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.formNavigation {
+
+	position: absolute;
+	bottom: 100%;
+	z-index: 1000;
+	left: calc(50% - 12px);
+	
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+
+}
+
+.formNavigationVis {
+	position: absolute;
+	bottom: 20px;
+	z-index: 1000;
+	left: 50%;
+	margin-left: -12px;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+
+.settingsPage {
+	position: fixed;
+	z-index: 4;
+	background: #454545;
+	width: 50%;
+	height: 100%;
+	top: 45px;
+	bottom: 48px;
+	left: -50%;
+	font-size: 14px;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.settingsPageVis {
+	position: fixed;
+	z-index: 4;
+	background: #454545;
+	width: 50%;
+	height: 100%;
+	top: 45px;
+	bottom: 48px;
+	left: 0;
+	font-size: 14px;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	
+}
+
+#courseNavigation {
+	margin-top: 50%;
+	float: right;
+}
+
+.courseNavigationHideVis {
+	position: absolute;
+	top: 50%;
+	left: calc(50% - 32px);
+	z-index: 5;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.courseNavigationHide {
+	position: absolute;
+	top: 50%;
+	left: -32px;
+	z-index: 5;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+#courseNavigationShow {
+	position: absolute;
+	top: 50%;
+	z-index: 4;
+}
+
+#detailContent {
+	position: relative;
+	width: 90%;
+	height: 100%;
+	z-index: 4;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
+
+
+
+#formContent {
+	position: relative;
+	width: 90%;
+	height: 100%;
+	margin-left: 20px;
+	margin-right: 50px;
+	margin-top: 55px;
+	font-size: 16px;
+}
+
+.titleInput {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 20px;
+	width: 100%;
+}
+
+.feedbackInput {
+	width: 100%;
+	height: 100px;
+}
+
+.btnSubmit {
+	margin-top: 15px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: black;
+	border:2px solid;
+	border-radius: 10px;
+	border-color: #A5A5A5;
+	background-color: #A5A5A5;
+	text-align: center;
+
+}
+
+#thelist li {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	
+}
+
+#thelist li a {
+	display: block;
+}
+
+.listItemTitle {
+	
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: underline;
+	line-height: 16px;
+	color: #424040;
+	
+}
+
+.listItemText {
+	
+	line-height: 16px;
+	width: 20px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.listItemContent {
+	height: 80px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	
+}
+
+
+
+.btnVote {
+	
+	width: 35px;
+	color: #2D2C2C;
+	font-weight: normal;
+	text-align: center;
+	line-height: 23px;
+	/*margin-right: 10px;*/
+	background: #A5A5A5;
+	margin-left: 10px;
+	margin-top: 5px;
+
+}
+
+.btnDate {
+	float:left;
+	margin-right: 15px;
+	margin-top: 13px;
+	line-height: 25px;
+	text-align: center;
+	font-weight: bold;
+	color: gray;	
+}
+
+.voteDiv {
+	
+	vertical-align: middle;
+	font-size: 15px;
+	text-align: center;
+	
+}
+
+#voteIcon {
+	vertical-align: middle;
+	margin-left: 10px;
+	padding-bottom: 12px;
+}
+
+#courseList {
+	width: 100%;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	list-style: none;
+	
+}
+
+#courseList {
+	width: 100%;
+}
+
+#courseList li {
+	width: 100%;
+	padding:0 10px;
+	border-bottom:1px solid #A5A5A5;
+	display: block;
+	height:40px;
+	line-height:40px;
+}
+
+#courseList li:active {
+	background-color: white;
+}
+
+#courseHeader {
+	font-size: 16px;
+	text-decoration: underline;
+	margin-left: 0px;
+}
+

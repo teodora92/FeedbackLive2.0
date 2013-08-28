@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon" href="res/img/appleIcon.png">
+	
+	<title>Feedback-Live</title>
+	
+	<!-- scripts -->
+	<script src="res/js/jquery191min.js"></script>
+	<script type="text/javascript" src="res/js/iscroll.js"></script>
+	<script type="text/javascript" src="res/js/jquerytouchSwipemin.js"></script>
+	<script type="application/javascript" src="res/js/add2home.js"></script>
+	
+	<!-- For recognizing android "deviceready" event -->
+	<script src="phonegap.js"></script>
+	
+	
+	<link rel="stylesheet" type="text/css" href="res/css/apple.css">
+	<link rel="stylesheet" type="text/css" href="res/css/styles.css">
+	<link rel="stylesheet" href="res/css/add2home.css">
+	
+	</head>
+
+<body>
+
+	<div id="header"><img id="appIcon" src="res/img/fhLogo2.png">Feedback-Live<img id="btnAdd" src="res/img/whitePlusIcon.png"></div>
+	<div id="courseNavigationShow">
+		<img  src="res/img/rightIcon.png">
+	</div>
+	<div id="courseNavigationHide" class="courseNavigationHideVis">
+		<img src="res/img/leftIcon.png">
+	</div>
+	<div id="formNavigation" class="formNavigation">
+		<img src="res/img/upIcon.png">
+	</div>
+	
+	
+	<div class="detailPage" id="detailPage">
+		<div id="detailContent">	
+		</div>	
+	</div>
+	
+	<div class="formPage" id="formPage">
+		<div id="formContent">
+			<h3 id="formHeader"></h3><hr>
+			<form id="feedbackForm">
+				Titel: <input class="titleInput" type="text" name="feedback_title"><br>
+				Feedback: <textarea class="feedbackInput" name="feedback_text"></textarea><br>
+				
+			</form>
+			<div class="btnSubmit" id="btnSubmit">Senden</div>
+		</div>
+	</div>
+	
+	<div class="settingsPageVis" id="settingsPage">
+		<div id="settingsContent">
+			<ul id="courseList">
+				<li id="courseHeader">Fächer</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="homePage" id="wrapper">
+		<div id="scroller">
+			<div id="pullDown">
+				<span class="pullDownIcon"></span>
+				<span class="pullDownLabel">Pull down to refresh</span>
+			</div>
+			
+			<ul id="thelist">
+			</ul>
+			
+		</div>
+	</div>
+	
+	
+	
+	<script type="text/javascript" src="res/js/main.js"></script>
+</body>
+
+
+</html>
